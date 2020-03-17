@@ -1,9 +1,9 @@
-# Covid-19 Data Visualisation - Slovakia
+# Covid-19 Elastic Stack Visualisation - Slovakia
 
-**Please be aware that this is not an official source of information. If you find an issue in the data set or want to improve
+**Please be aware that this is not an official source of information on infection. If you find an issue in the data set or want to improve
 the quality of the set, open an issue or PR**
 
-**This is still work in progress**
+**Repository is still work in progress and will involve work over the next days/weeks**
 
 ## What
 With the current coronavirus outbreak, there are many visualizations and dashboards, which track how the virus spreads across the world. I  focus here on dataset and visualizations in Slovakia.
