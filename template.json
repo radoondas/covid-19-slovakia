@@ -1,0 +1,59 @@
+{
+  "order": 0,
+  "index_patterns": [
+    "covid-19-sk*"
+  ],
+  "settings": {
+    "index": {
+      "number_of_replicas": "1"
+    }
+  },
+  "mappings": {
+    "properties": {
+      "datum": {
+        "format": "strict_date_optional_time||epoch_millis||dd.MM.yyy",
+        "index": true,
+        "ignore_malformed": false,
+        "store": false,
+        "type": "date",
+        "doc_values": true
+      },
+      "infikovani": {
+        "coerce": true,
+        "index": true,
+        "ignore_malformed": false,
+        "store": false,
+        "type": "short",
+        "doc_values": true
+      },
+      "kraj": {
+        "eager_global_ordinals": false,
+        "norms": false,
+        "index": true,
+        "store": false,
+        "type": "keyword",
+        "split_queries_on_whitespace": false,
+        "index_options": "docs",
+        "doc_values": true
+      },
+      "mesto": {
+        "type": "keyword"
+      },
+      "mrtvi": {
+        "type": "short"
+      },
+      "pohlavie": {
+        "type": "keyword"
+      },
+      "poznamka1": {
+        "type": "text"
+      },
+      "poznamka2": {
+        "type": "text"
+      },
+      "zdravi": {
+        "type": "short"
+      }
+    }
+  }
+}

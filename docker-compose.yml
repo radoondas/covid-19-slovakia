@@ -1,0 +1,39 @@
+version: "3"
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:${TAG}
+    container_name: ${ES_C_NAME}
+    ports: ['127.0.0.1:${ES_PORT}:9200']
+    networks: ['esnet']
+    environment:
+      - http.host=0.0.0.0
+      - transport.host=127.0.0.1
+      - discovery.type=single-node
+      - cluster.name=${CLUSTER_NAME}
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+      - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
+      #- discovery.type=single-node
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - ./es-data:/usr/share/elasticsearch/data
+      - ./es-logs:/usr/share/elasticsearch/logs
+      # custom configuration files
+      #- ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      #- ./log4j2.properties:/usr/share/elasticsearch/config/log4j2.properties
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:${TAG}
+    container_name: ${KB_C_NAME}
+    environment:
+      - ELASTICSEARCH_URL=http://${ES_C_NAME}:9200
+      - ELASTICSEARCH_USERNAME=${ELASTICSEARCH_USERNAME}
+      - ELASTICSEARCH_PASSWORD=${ELASTIC_PASSWORD}
+    ports: ['127.0.0.1:${KB_PORT}:5601']
+    networks: ['esnet']
+    depends_on: ['elasticsearch']
+
+networks: {esnet: {}}
