@@ -5,6 +5,8 @@ the quality of the set, open an issue or PR**
 
 **Repository is still work in progress and will involve work over the next days/weeks**
 
+**Live Dashboard based on the data and the setup is located at [covid-19.radoondas.io](https://covid-19.radoondas.io)**
+
 ## What
 With the current coronavirus outbreak, there are many visualizations and dashboards, which track how the virus spreads across the world. I  focus here on dataset and visualizations in Slovakia.
 
@@ -24,7 +26,7 @@ The data set consists CSV report with following header:
 | datum | Date - the date of the record |
 | mesto | City - the location of the person infected by covid-19 |
 | infikovani| Infected - number of infected |
-| pohlavie| Gender |
+| pohlavie| Gender, `M` - male, `Ž` - female, `D` - children, `X` - unknown |
 | poznamka1 | Note 1 |
 | poznamka2 | Note 2 |
 | zdravi | Helthy - nymber of people who healed from the virus |
