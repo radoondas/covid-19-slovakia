@@ -19,26 +19,27 @@ I take reports and news to combine a [dataset](/data/covid-19-slovensko.csv) tha
 ### Data description
 The data set consists CSV report with following header:
 
-`datum;mesto;infikovani;pohlavie;poznamka1;poznamka2;zdravi;mrtvi;kraj`
+`date;city;infected;gender;note_1;note_2;healthy;died;region;age`
 
 | Column name | Description |
 |-------------|-------------|
-| datum | Date - the date of the record |
-| mesto | City - the location of the person infected by covid-19 |
-| infikovani| Infected - number of infected |
-| pohlavie| Gender, `M` - male, `Ž` - female, `D` - children, `X` - unknown |
-| poznamka1 | Note 1 |
-| poznamka2 | Note 2 |
-| zdravi | Helthy - nymber of people who healed from the virus |
-| mrtvi | Dead - number people who died |
-| kraj | Region |
+| date | Date - the date of the record |
+| city | City - the location of the person infected by covid-19 |
+| infected| Infected - number of infected |
+| gender| Gender, `M` - male, `Ž` - female, `D` - children, `X` - unknown |
+| note_1 | Note 1 |
+| note_2 | Note 2 |
+| healthy | Helthy - nymber of people who healed from the virus |
+| died | Dead - number people who died |
+| region | Region |
+| age | Age |
 
 ### Geo data
 For this occasion I generated `geojson` source file for all towns/cities/villages and also regions. Files are located in 
 `data` folder ([obce.json](/data/obce.json) and [kraje.json](/data/obce.json)). JSON files are generated from [Geoportal](https://www.geoportal.sk/sk/zbgis_smd/na-stiahnutie/)  
 using GDAL library for format conversion.
 
-## How - compact version
+## Howto - compact version
 The following are minimal steps to reproduce. I will also write a longer blog post and update the link here when available.
 
 1. Clone this repository to get all data and configuration
@@ -46,7 +47,7 @@ The following are minimal steps to reproduce. I will also write a longer blog po
 
 To use Docker environment run following command (I expect you have Docker up and running) and it will spin up 1 node cluster with version 7.6.1.
 ```docker
-docker-compose up
+docker-compose up -d
 ```
 
 Verify if your cluster is up and running. Navigate to your browser and open Kibana url `http://127.0.0.1:5601/`.
