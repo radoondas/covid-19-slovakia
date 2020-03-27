@@ -10,7 +10,7 @@
   },
   "mappings": {
     "properties": {
-      "datum": {
+      "date": {
         "format": "strict_date_optional_time||epoch_millis||dd.MM.yyy",
         "index": true,
         "ignore_malformed": false,
@@ -18,7 +18,7 @@
         "type": "date",
         "doc_values": true
       },
-      "infikovani": {
+      "infected": {
         "coerce": true,
         "index": true,
         "ignore_malformed": false,
@@ -26,7 +26,7 @@
         "type": "short",
         "doc_values": true
       },
-      "kraj": {
+      "region": {
         "eager_global_ordinals": false,
         "norms": false,
         "index": true,
@@ -36,22 +36,25 @@
         "index_options": "docs",
         "doc_values": true
       },
-      "mesto": {
+      "city": {
         "type": "keyword"
       },
-      "mrtvi": {
+      "died": {
         "type": "short"
       },
-      "pohlavie": {
+      "gender": {
         "type": "keyword"
       },
-      "poznamka1": {
+      "note_1": {
         "type": "text"
       },
-      "poznamka2": {
+      "note_2": {
         "type": "text"
       },
-      "zdravi": {
+      "healthy": {
+        "type": "short"
+      },
+      "age": {
         "type": "short"
       }
     }
