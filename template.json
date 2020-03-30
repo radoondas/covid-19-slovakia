@@ -5,7 +5,19 @@
   ],
   "settings": {
     "index": {
-      "number_of_replicas": "1"
+      "number_of_replicas": "1",
+      "analysis": {
+        "analyzer": {
+          "lowercase_asciifold_analyzer": {
+            "type": "custom",
+            "tokenizer": "standard",
+            "filter": [
+              "lowercase",
+              "asciifolding"
+            ]
+          }
+        }
+      }
     }
   },
   "mappings": {
@@ -19,43 +31,75 @@
         "doc_values": true
       },
       "infected": {
-        "coerce": true,
-        "index": true,
-        "ignore_malformed": false,
-        "store": false,
         "type": "short",
+        "index": true,
         "doc_values": true
       },
       "region": {
-        "eager_global_ordinals": false,
-        "norms": false,
-        "index": true,
-        "store": false,
         "type": "keyword",
         "split_queries_on_whitespace": false,
         "index_options": "docs",
-        "doc_values": true
+        "doc_values": true,
+        "fields": {
+          "text": {
+            "type":  "text"
+          },
+          "custom" : {
+            "type" : "text",
+            "analyzer" : "lowercase_asciifold_analyzer"
+          }
+        }
       },
       "city": {
-        "type": "keyword"
+        "type": "keyword",
+        "split_queries_on_whitespace": false,
+        "index_options": "docs",
+        "doc_values": true,
+        "fields": {
+          "text": {
+            "type":  "text"
+          },
+          "custom" : {
+            "type" : "text",
+            "analyzer" : "lowercase_asciifold_analyzer"
+          }
+        }
       },
       "died": {
-        "type": "short"
+        "type": "short",
+        "index": true,
+        "doc_values": true
       },
       "gender": {
         "type": "keyword"
       },
       "note_1": {
-        "type": "text"
+        "type": "text",
+        "fields": {
+          "custom" : {
+            "type" : "text",
+            "analyzer" : "lowercase_asciifold_analyzer"
+          }
+        }
       },
       "note_2": {
-        "type": "text"
+        "type": "text",
+        "fields": {
+          "custom" : {
+            "type" : "text",
+            "analyzer" : "lowercase_asciifold_analyzer"
+          }
+        }
       },
       "healthy": {
-        "type": "short"
+        "type": "short",
+        "index": true,
+        "doc_values": true
       },
       "age": {
-        "type": "short"
+        "type": "short",
+        "index": true,
+        "doc_values": true
       }
     }
   }
