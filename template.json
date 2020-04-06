@@ -100,6 +100,21 @@
         "type": "short",
         "index": true,
         "doc_values": true
+      },
+      "district": {
+        "type": "keyword",
+        "split_queries_on_whitespace": false,
+        "index_options": "docs",
+        "doc_values": true,
+        "fields": {
+          "text": {
+            "type":  "text"
+          },
+          "custom" : {
+            "type" : "text",
+            "analyzer" : "lowercase_asciifold_analyzer"
+          }
+        }
       }
     }
   }

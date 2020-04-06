@@ -52,11 +52,12 @@ docker-compose up -d
 
 Verify if your cluster is up and running. Navigate to your browser and open Kibana url `http://127.0.0.1:5601/`.
 
-3. Import GeoJSON data for [Obce](/data/obce.json) and [Kraje](/data/kraje.json). You now have 2 indices in your cluster.  I am using GDAL library for the task which will be described in blog post later.
-For the reference, this is the command I use:
+3. Import GeoJSON data for [Obce](/data/obce.json), [Kraje](/data/kraje.json) and [Okresy](/data/okresy.json). You now have 3 indices in your cluster.
+   I am using GDAL library for the task which will be described in blog post later. For the reference, this is the command I use:
 ```bash
 ogr2ogr -lco INDEX_NAME=kraje -lco NOT_ANALYZED_FIELDS={ALL} "ES:http://elastic:changeme@localhost:9200"  "$(pwd)/kraje.json"
 ogr2ogr -lco INDEX_NAME=obce -lco NOT_ANALYZED_FIELDS={ALL} "ES:http://elastic:changeme@localhost:9200"  "$(pwd)/obce.json"
+ogr2ogr -lco INDEX_NAME=okresy -lco NOT_ANALYZED_FIELDS={ALL} "ES:http://elastic:changeme@localhost:9200"  "$(pwd)/okresy.json"
 ```
 
 4. Index data into Elasticsearch and stop docker container when finished
