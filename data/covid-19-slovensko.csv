@@ -1,77 +1,91 @@
+19.04.2020;Spišské Bystré;0;M;DSS Spišské Bystré;;0;1;Prešovský;;Poprad
+19.04.2020;Neuvedené;0;X;;;22;0;Neuvedené;;Neuvedené
+19.04.2020;Bratislava-Staré Mesto;1;M;adresa neznáma;;0;0;Bratislavský;44;Bratislava I
+19.04.2020;Bratislava-Staré Mesto;1;M;;;0;0;Bratislavský;53;Bratislava I
+19.04.2020;Hlohovec;1;M;v karanténnom stredisku Vranov nad Topľou;;0;0;Trnavský;51;Hlohovec
+19.04.2020;Košice-Staré Mesto;1;M;adresa neznáma, v karanténnom stredisku;;0;0;Košický;34;Košice I
+19.04.2020;Pezinok;1;M;;;0;0;Bratislavský;38;Pezinok
+19.04.2020;Pezinok;1;Ž;Pezinok DSS;;0;0;Bratislavský;73;Pezinok
+19.04.2020;Prešov;1;M;;;0;0;Prešovský;60;Prešov
+19.04.2020;Prievidza;1;Ž;;;0;0;Trenčiansky;45;Prievidza
+19.04.2020;Prievidza;1;Ž;;;0;0;Trenčiansky;76;Prievidza
+19.04.2020;Snina;1;M;v karanténnej stanici APZ BA;;0;0;Prešovský;33;Snina
+19.04.2020;Svidník;1;M;v karanténnom stredisku Vranov nad Topľou;;0;0;Prešovský;56;Svidník
+19.04.2020;Vranov nad Topľou;1;M;v karanténnom stredisku Vranov nad Topľou;;0;0;Prešovský;26;Vranov nad Topľou
 18.04.2020;Neuvedené;0;X;;;16;0;Neuvedené;;Neuvedené
 18.04.2020;Pezinok;0;Ž;Pezinok DSS;Nemocniva Bratislava;0;1;Bratislavský;;Pezinok
-18.04.2020;Bratislava-Staré Mesto;1;M;;;;;Bratislavský;33;Bratislava I
-18.04.2020;Bratislava-Staré Mesto;1;Ž;;;;;Bratislavský;44;Bratislava I
-18.04.2020;Brezno;1;M;;;;;Banskobystrický;25;Brezno
-18.04.2020;Dolný Kubín;1;M;;;;;Žilinský;62;Dolný Kubín
-18.04.2020;Dunajská Streda;1;M;;;;;Trnavský;55;Dunajská Streda
-18.04.2020;Dunajská Streda;1;Ž;;;;;Trnavský;44;Dunajská Streda
-18.04.2020;Dunajská Streda;1;Ž;;;;;Trnavský;47;Dunajská Streda
-18.04.2020;Dunajská Streda;1;Ž;;;;;Trnavský;52;Dunajská Streda
-18.04.2020;Košice-Staré Mesto;1;M;;;;;Košický;37;Košice I
-18.04.2020;Liptovský Mikuláš;1;M;;;;;Žilinský;28;Liptovský Mikuláš
-18.04.2020;Liptovský Mikuláš;1;Ž;;;;;Žilinský;26;Liptovský Mikuláš
-18.04.2020;Martin;1;M;;;;;Žilinský;53;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;16;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;28;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;34;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;40;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;42;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;46;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;51;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;53;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;55;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;56;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;57;Martin
-18.04.2020;Martin;1;Ž;;;;;Žilinský;61;Martin
-18.04.2020;Námestovo;1;Ž;;;;;Žilinský;5;Námestovo
-18.04.2020;Pezinok;1;M;;;;;Bratislavský;53;Pezinok
-18.04.2020;Pezinok;1;M;;;;;Bratislavský;56;Pezinok
-18.04.2020;Pezinok;1;Ž;;;;;Bratislavský;80;Pezinok
-18.04.2020;Prievidza;1;M;;;;;Trenčiansky;58;Prievidza
-18.04.2020;Prievidza;1;Ž;;;;;Trenčiansky;27;Prievidza
-18.04.2020;Prievidza;1;Ž;;;;;Trenčiansky;52;Prievidza
-18.04.2020;Revúca;1;M;;;;;Banskobystrický;46;Revúca
-18.04.2020;Ružomberok;1;M;;;;;Žilinský;23;Ružomberok
-18.04.2020;Ružomberok;1;M;;;;;Žilinský;73;Ružomberok
-18.04.2020;Stará Ľubovňa;1;M;;;;;Prešovský;75;Stará Ľubovňa
-18.04.2020;Turčianske Teplice;1;Ž;;;;;Žilinský;58;Turčianske Teplice
-18.04.2020;Tvrdošín;1;Ž;;;;;Žilinský;58;Tvrdošín
-18.04.2020;Martin;1;Ž;;;;;Žilinský;55;Martin
-18.04.2020;Ružomberok;1;M;adresa neznáma;vyšetrený v Ružomberku;;;Žilinský;42;Ružomberok
-18.04.2020;Martin;1;M;Martin DSS;;;;Žilinský;28;Martin
-18.04.2020;Martin;1;M;Martin DSS;;;;Žilinský;40;Martin
-18.04.2020;Martin;1;M;Martin DSS;;;;Žilinský;70;Martin
-18.04.2020;Martin;1;M;Martin DSS;;;;Žilinský;72;Martin
-18.04.2020;Martin;1;M;Martin DSS;;;;Žilinský;74;Martin
-18.04.2020;Martin;1;M;Martin DSS;;;;Žilinský;83;Martin
-18.04.2020;Martin;1;M;Martin DSS;;;;Žilinský;83;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;54;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;61;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;63;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;66;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;70;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;72;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;80;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;81;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;83;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;84;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;86;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;87;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;88;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;88;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;89;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;94;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;;;;Žilinský;94;Martin
-18.04.2020;Martin;1;Ž;Martin DSS;vek neznámy;;;Žilinský;;Martin
-18.04.2020;Neuvedené;1;Ž;OP Karusel;;;;Košický;44;Košice - okolie
-18.04.2020;Revúca;1;M;OP Karusel;;;;Banskobystrický;21;Revúca
-18.04.2020;Revúca;1;Ž;OP Karusel;;;;Banskobystrický;54;Revúca
-18.04.2020;Rimavská Sobota;1;M;OP Karusel;;;;Banskobystrický;13;Rimavská Sobota
-18.04.2020;Rimavská Sobota;1;M;OP Karusel;;;;Banskobystrický;28;Rimavská Sobota
-18.04.2020;Rimavská Sobota;1;Ž;OP Karusel;;;;Banskobystrický;46;Rimavská Sobota
-18.04.2020;Spišská Nová Ves;1;Ž;OP Karusel;;;;Košický;78;Spišská Nová Ves
-18.04.2020;Čadca;1;M;v karanténnom stredisku Modra;;;;Žilinský;36;Čadca
+18.04.2020;Bratislava-Staré Mesto;1;M;;;0;0;Bratislavský;33;Bratislava I
+18.04.2020;Bratislava-Staré Mesto;1;Ž;;;0;0;Bratislavský;44;Bratislava I
+18.04.2020;Brezno;1;M;;;0;0;Banskobystrický;25;Brezno
+18.04.2020;Dolný Kubín;1;M;;;0;0;Žilinský;62;Dolný Kubín
+18.04.2020;Dunajská Streda;1;M;;;0;0;Trnavský;55;Dunajská Streda
+18.04.2020;Dunajská Streda;1;Ž;;;0;0;Trnavský;44;Dunajská Streda
+18.04.2020;Dunajská Streda;1;Ž;;;0;0;Trnavský;47;Dunajská Streda
+18.04.2020;Dunajská Streda;1;Ž;;;0;0;Trnavský;52;Dunajská Streda
+18.04.2020;Košice-Staré Mesto;1;M;;;0;0;Košický;37;Košice I
+18.04.2020;Liptovský Mikuláš;1;M;;;0;0;Žilinský;28;Liptovský Mikuláš
+18.04.2020;Liptovský Mikuláš;1;Ž;;;0;0;Žilinský;26;Liptovský Mikuláš
+18.04.2020;Martin;1;M;;;0;0;Žilinský;53;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;16;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;28;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;34;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;40;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;42;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;46;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;51;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;53;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;55;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;56;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;57;Martin
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;61;Martin
+18.04.2020;Námestovo;1;Ž;;;0;0;Žilinský;5;Námestovo
+18.04.2020;Pezinok;1;M;;;0;0;Bratislavský;53;Pezinok
+18.04.2020;Pezinok;1;M;;;0;0;Bratislavský;56;Pezinok
+18.04.2020;Pezinok;1;Ž;;;0;0;Bratislavský;80;Pezinok
+18.04.2020;Prievidza;1;M;;;0;0;Trenčiansky;58;Prievidza
+18.04.2020;Prievidza;1;Ž;;;0;0;Trenčiansky;27;Prievidza
+18.04.2020;Prievidza;1;Ž;;;0;0;Trenčiansky;52;Prievidza
+18.04.2020;Revúca;1;M;;;0;0;Banskobystrický;46;Revúca
+18.04.2020;Ružomberok;1;M;;;0;0;Žilinský;23;Ružomberok
+18.04.2020;Ružomberok;1;M;;;0;0;Žilinský;73;Ružomberok
+18.04.2020;Stará Ľubovňa;1;M;;;0;0;Prešovský;75;Stará Ľubovňa
+18.04.2020;Turčianske Teplice;1;Ž;;;0;0;Žilinský;58;Turčianske Teplice
+18.04.2020;Tvrdošín;1;Ž;;;0;0;Žilinský;58;Tvrdošín
+18.04.2020;Martin;1;Ž;;;0;0;Žilinský;55;Martin
+18.04.2020;Ružomberok;1;M;adresa neznáma;vyšetrený v Ružomberku;0;0;Žilinský;42;Ružomberok
+18.04.2020;Martin;1;M;Martin DSS;;0;0;Žilinský;28;Martin
+18.04.2020;Martin;1;M;Martin DSS;;0;0;Žilinský;40;Martin
+18.04.2020;Martin;1;M;Martin DSS;;0;0;Žilinský;70;Martin
+18.04.2020;Martin;1;M;Martin DSS;;0;0;Žilinský;72;Martin
+18.04.2020;Martin;1;M;Martin DSS;;0;0;Žilinský;74;Martin
+18.04.2020;Martin;1;M;Martin DSS;;0;0;Žilinský;83;Martin
+18.04.2020;Martin;1;M;Martin DSS;;0;0;Žilinský;83;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;54;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;61;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;63;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;66;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;70;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;72;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;80;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;81;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;83;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;84;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;86;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;87;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;88;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;88;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;89;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;94;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;;0;0;Žilinský;94;Martin
+18.04.2020;Martin;1;Ž;Martin DSS;vek neznámy;0;0;Žilinský;;Martin
+18.04.2020;Neuvedené;1;Ž;OP Karusel;;0;0;Košický;44;Košice - okolie
+18.04.2020;Revúca;1;M;OP Karusel;;0;0;Banskobystrický;21;Revúca
+18.04.2020;Revúca;1;Ž;OP Karusel;;0;0;Banskobystrický;54;Revúca
+18.04.2020;Rimavská Sobota;1;M;OP Karusel;;0;0;Banskobystrický;13;Rimavská Sobota
+18.04.2020;Rimavská Sobota;1;M;OP Karusel;;0;0;Banskobystrický;28;Rimavská Sobota
+18.04.2020;Rimavská Sobota;1;Ž;OP Karusel;;0;0;Banskobystrický;46;Rimavská Sobota
+18.04.2020;Spišská Nová Ves;1;Ž;OP Karusel;;0;0;Košický;78;Spišská Nová Ves
+18.04.2020;Čadca;1;M;v karanténnom stredisku Modra;;0;0;Žilinský;36;Čadca
 17.04.2020;Neuvedené;0;X;;;38;0;Neuvedené;;Neuvedené
 17.04.2020;Batizovce;0;Ž;Centra sociálnych služieb v Batizovciach;Nemocnica Poprad;0;1;Prešovský;;Poprad
 17.04.2020;Pezinok;0;Ž;Pezinok DSS;Nemocniva Bratislava;0;1;Bratislavský;;Pezinok
