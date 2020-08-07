@@ -38,6 +38,9 @@ The data set consists CSV report with following header:
 For this occasion I generated `geojson` source file for all towns/cities/villages and also regions. Files are located in 
 `data` folder ([obce.json](/data/obce.json) and [kraje.json](/data/obce.json)). JSON files are generated from [Geoportal](https://www.geoportal.sk/sk/zbgis_smd/na-stiahnutie/) using the GDAL library for format conversion.
 
+## Howto - full version
+The complete tutorial on how to build the dashboard is located on my [personal blog](https://radoondas.io/posts/2020/visualise-covid-19-using-elastic-stack/). Please read through and let me know if you have issues.
+
 ## Howto - compact version
 The following are minimal steps to reproduce. I will also write a longer blog post and update the link here when available.
 
