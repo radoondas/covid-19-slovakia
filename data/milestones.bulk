@@ -36,3 +36,9 @@
 { "date" : "01.10.2020", "event" : "Sprísnené opatrenia týkajúce sa cestovania, nosenia rúšok a hygieny v prevádzkach." }
 { "index" : { "_index" : "milestones", "_id" : "19" } }
 { "date" : "12.10.2020", "event" : "Stredné školy prechádzajú na dištančnú formu výučby." }
+{ "index" : { "_index" : "milestones", "_id" : "20" } }
+{ "date" : "02.09.2020", "event" : "Otvorenie škôl s povinnosťou nosenia rúšok podľa stupňa vzdelávania." }
+{ "index" : { "_index" : "milestones", "_id" : "21" } }
+{ "date" : "13.10.2020", "event" : "Platí zákaz zhromažďovania sa viac ako 6 osôb. Výnimkou sú osoby žijúce v jednej domácnosti." }
+{ "index" : { "_index" : "milestones", "_id" : "22" } }
+{ "date" : "15.10.2020", "event" : "Sprísnené opatrenia v núdzovom stave." }
