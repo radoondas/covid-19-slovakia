@@ -33,7 +33,7 @@
 { "index" : { "_index" : "milestones", "_id" : "17" } }
 { "date" : "01.07.2020", "event" : "Povolenia usporadúvať hromadné podujatia športovej, kultúrnej, spoločenskej či inej povahy v počte do 1000 osôb." }
 { "index" : { "_index" : "milestones", "_id" : "18" } }
-{ "date" : "01.10.2020", "event" : "Sprísnené opatrenia týkajúce sa cestovania, nosenia rúšok a hygieny v prevádzkach." }
+{ "date" : "01.10.2020", "event" : "VYhlásený núdzový stav. Sprísnené opatrenia týkajúce sa cestovania, nosenia rúšok a hygieny v prevádzkach." }
 { "index" : { "_index" : "milestones", "_id" : "19" } }
 { "date" : "12.10.2020", "event" : "Stredné školy prechádzajú na dištančnú formu výučby." }
 { "index" : { "_index" : "milestones", "_id" : "20" } }
