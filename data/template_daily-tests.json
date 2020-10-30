@@ -1,0 +1,33 @@
+{
+  "order": 0,
+  "index_patterns": [
+    "daily-tests"
+  ],
+  "settings": {
+    "index": {
+      "number_of_replicas": "1"
+    }
+  },
+  "mappings": {
+    "properties": {
+      "date": {
+        "format": "strict_date_optional_time||epoch_millis||dd.MM.yyy",
+        "index": true,
+        "ignore_malformed": false,
+        "store": false,
+        "type": "date",
+        "doc_values": true
+      },
+      "infected": {
+        "type": "short",
+        "index": true,
+        "doc_values": true
+      },
+      "tests": {
+        "type": "short",
+        "index": true,
+        "doc_values": true
+      }
+    }
+  }
+}
