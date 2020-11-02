@@ -44,3 +44,5 @@
 { "date" : "15.10.2020", "event" : "Sprísnené opatrenia v núdzovom stave. Povinnosť nosenia rúška aj v exteriéri a iné." }
 { "index" : { "_index" : "milestones", "_id" : "23" } }
 { "date" : "23.10.2020", "event" : "Plošné testovanie v najhoršie zasiahnutých okresoch Oravy a Bardejova." }
+{ "index" : { "_index" : "milestones", "_id" : "24" } }
+{ "date" : "31.10.2020", "event" : "Celoslovenské testovanie pomocou antigénových testov." }
