@@ -23,7 +23,7 @@
   "mappings": {
     "properties": {
       "date": {
-        "format": "strict_date_optional_time||epoch_millis||dd.MM.yyy",
+        "format": "strict_date_optional_time||epoch_millis||dd.MM.yyyy",
         "index": true,
         "ignore_malformed": false,
         "store": false,
