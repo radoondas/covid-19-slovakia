@@ -48,3 +48,6 @@
 { "date" : "31.10.2020", "event" : "Celoslovenské testovanie pomocou antigénových testov. Prvé kolo." }
 { "index" : { "_index" : "milestones", "_id" : "25" } }
 { "date" : "07.11.2020", "event" : "Celoslovenské testovanie pomocou antigénových testov. Druhé kolo." }
+{ "index" : { "_index" : "milestones", "_id" : "26" } }
+{ "date" : "15.11.2020", "event" : "Predĺženie výnimočného stavu o ďalších 45 dní." }
+
