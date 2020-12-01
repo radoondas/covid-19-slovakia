@@ -49,5 +49,8 @@
 { "index" : { "_index" : "milestones", "_id" : "25" } }
 { "date" : "07.11.2020", "event" : "Celoslovenské testovanie pomocou antigénových testov. Druhé kolo." }
 { "index" : { "_index" : "milestones", "_id" : "26" } }
-{ "date" : "15.11.2020", "event" : "Predĺženie výnimočného stavu o ďalších 45 dní." }
-
+{ "date" : "15.11.2020", "evßent" : "Predĺženie výnimočného stavu o ďalších 45 dní." }
+{ "index" : { "_index" : "milestones", "_id" : "28" } }
+{ "date" : "21.11.2020", "event" : "Celoslovenské testovanie pomocou antigénových testov. Tretie kolo vo vybraných obciach." }
+{ "index" : { "_index" : "milestones", "_id" : "29" } }
+{ "date" : "08.11.2020", "event" : "Nové opatrenia pre reštaurácie a terasy." }
