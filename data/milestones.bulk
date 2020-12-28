@@ -54,3 +54,6 @@
 { "date" : "21.11.2020", "event" : "Celoslovenské testovanie pomocou antigénových testov. Tretie kolo vo vybraných obciach." }
 { "index" : { "_index" : "milestones", "_id" : "29" } }
 { "date" : "08.11.2020", "event" : "Nové opatrenia pre reštaurácie a terasy." }
+{ "index" : { "_index" : "milestones", "_id" : "30" } }
+{ "date" : "21.12.2020", "event" : "Zákaz vychádzania s početnými výnimkami." }
+
