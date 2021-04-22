@@ -60,3 +60,7 @@
 { "date" : "28.12.2020", "event" : "Predĺženie núdzového stavu o 40 dní." }
 { "index" : { "_index" : "milestones", "_id" : "32" } }
 { "date" : "01.01.2021", "event" : "Prísny zákaz vychádzania platný do 24. januára 2021. S výnimkami." }
+{ "index" : { "_index" : "milestones", "_id" : "33" } }
+{ "date" : "19.04.2021", "event" : "Uvoľnenie opatrení. Upravené pravidlá nosenia rúšok a respirátorov, Pobyt v prírode povolený aj mimo okresu (s testom). Otvorené obchody a služby (max 1 osoba/15m2 + test). Otvorené hotely (max 2 osoby v spoločnej domácnosti na izbu + test). Bohoslužby (max 1 osoba/15m2 + test). Otvorené plavárne (max 6 osôb + test). Otvorené múzeá, ZOO, botanické záhrady (max 1 osoba/15m2 + test). Otvorené knižnice (spoločné čítanie do 6 osôb)" }
+{ "index" : { "_index" : "milestones", "_id" : "34" } }
+{ "date" : "26.04.2021", "event" : "Otvorenie terás reštaurácií a fitnescentier za stanovených hygienických podmienok." }
