@@ -24,7 +24,7 @@
         "doc_values": true
       },
       "tests": {
-        "type": "short",
+        "type": "integer",
         "index": true,
         "doc_values": true
       }
