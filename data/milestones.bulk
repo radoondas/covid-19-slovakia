@@ -64,3 +64,5 @@
 { "date" : "19.04.2021", "event" : "Uvoľnenie opatrení. Upravené pravidlá nosenia rúšok a respirátorov, Pobyt v prírode povolený aj mimo okresu (s testom). Otvorené obchody a služby (max 1 osoba/15m2 + test). Otvorené hotely (max 2 osoby v spoločnej domácnosti na izbu + test). Bohoslužby (max 1 osoba/15m2 + test). Otvorené plavárne (max 6 osôb + test). Otvorené múzeá, ZOO, botanické záhrady (max 1 osoba/15m2 + test). Otvorené knižnice (spoločné čítanie do 6 osôb)" }
 { "index" : { "_index" : "milestones", "_id" : "34" } }
 { "date" : "26.04.2021", "event" : "Otvorenie terás reštaurácií a fitnescentier za stanovených hygienických podmienok." }
+{ "index" : { "_index" : "milestones", "_id" : "35" } }
+{ "date" : "10.05.2021", "event" : " Rušia sa vyhradené nákupné hodiny pre seniorov, ŤZP a ich sprievodcov. Taktiež došlo k úprave viacerých podmienok konania hromadných podujatí a otvorených prevádzok." }
