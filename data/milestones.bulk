@@ -68,3 +68,5 @@
 { "date" : "10.05.2021", "event" : "Rušia sa vyhradené nákupné hodiny pre seniorov, ŤZP a ich sprievodcov. Taktiež došlo k úprave viacerých podmienok konania hromadných podujatí a otvorených prevádzok." }
 { "index" : { "_index" : "milestones", "_id" : "36" } }
 { "date" : "15.05.2021", "event" : "Skončil sa núdzový stav a s ním aj zákaz vychádzania a zhromažďovania." }
+{ "index" : { "_index" : "milestones", "_id" : "37" } }
+{ "date" : "31.05.2021", "event" : "v platnosti Cestovateľský semafor, ktorý upravuje vstup osôb na územie SR a následnú karanténu." }
