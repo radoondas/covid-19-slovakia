@@ -69,4 +69,6 @@
 { "index" : { "_index" : "milestones", "_id" : "36" } }
 { "date" : "15.05.2021", "event" : "Skončil sa núdzový stav a s ním aj zákaz vychádzania a zhromažďovania." }
 { "index" : { "_index" : "milestones", "_id" : "37" } }
-{ "date" : "31.05.2021", "event" : "v platnosti Cestovateľský semafor, ktorý upravuje vstup osôb na územie SR a následnú karanténu." }
+{ "date" : "31.05.2021", "event" : "V platnosti Cestovateľský semafor, ktorý upravuje vstup osôb na územie SR a následnú karanténu." }
+{ "index" : { "_index" : "milestones", "_id" : "38" } }
+{ "date" : "23.06.2021", "event" : "Oznámený prvý prípad Delta variantu na Slovensku." }
