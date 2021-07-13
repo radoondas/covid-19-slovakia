@@ -18,12 +18,21 @@
         "type": "date",
         "doc_values": true
       },
-      "infected": {
+      "pcr_positive": {
         "type": "short",
         "index": true,
         "doc_values": true
       },
-      "tests": {
+      "pcr_tests": {
+        "type": "integer",
+        "index": true,
+        "doc_values": true
+      },"ag_positive": {
+        "type": "short",
+        "index": true,
+        "doc_values": true
+      },
+      "ag_tests": {
         "type": "integer",
         "index": true,
         "doc_values": true
