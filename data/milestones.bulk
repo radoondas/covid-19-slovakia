@@ -72,3 +72,5 @@
 { "date" : "31.05.2021", "event" : "V platnosti Cestovateľský semafor, ktorý upravuje vstup osôb na územie SR a následnú karanténu." }
 { "index" : { "_index" : "milestones", "_id" : "38" } }
 { "date" : "23.06.2021", "event" : "Oznámený prvý prípad Delta variantu na Slovensku." }
+{ "index" : { "_index" : "milestones", "_id" : "39" } }
+{ "date" : "21.04.2022", "event" : "Zrušenie povinnosti prekrytia dýchacích ciest vo väčšine interiérov." }
