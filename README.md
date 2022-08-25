@@ -7,6 +7,8 @@ the quality of the set, open an issue or PR**
 
 **Live Dashboard based on the data and the setup is located at [covid-19.radoondas.io](https://covid-19.radoondas.io)**
 
+**Tested with Elasticsearch v7.17.5 and Logstash v7.8.1**
+
 ## What
 With the current coronavirus outbreak, there are many visualizations and dashboards, which track how the virus spreads across the world. I  focus here on dataset and visualizations in Slovakia.
 
