@@ -67,10 +67,12 @@ ogr2ogr -lco INDEX_NAME=okresy -lco NOT_ANALYZED_FIELDS={ALL} "ES:http://elastic
  ```docker
 docker run --rm -it --network=host \
 -v $(pwd)/template.json:/tmp/template.json \
--v $(pwd)/data/covid-19-slovensko.csv:/tmp/covid-19-slovensko.csv \
+-v $(pwd)/data/:/usr/share/logstash/covid/ \
 -v $(pwd)/ls.conf:/usr/share/logstash/pipeline/logstash.conf \
+-e MONITORING_ENABLED=false \
 docker.elastic.co/logstash/logstash:7.8.1
 ```
+
 5. Import the template and actual data for annotations used in visualizations
 ```bash
    cd data
@@ -82,8 +84,8 @@ docker.elastic.co/logstash/logstash:7.8.1
    curl -s -H "Content-Type: application/x-ndjson" -XPOST localhost:9200/_bulk --data-binary "@milestones.bulk"; echo
 ```
 
-5. [Import](https://www.elastic.co/guide/en/kibana/current/managing-saved-objects.html#managing-saved-objects-export-objects) `Saved Objects` from [visualisations file](data/visualisations.ndjson) and adjust patterns appropriately.
+6. [Import](https://www.elastic.co/guide/en/kibana/current/managing-saved-objects.html#managing-saved-objects-export-objects) `Saved Objects` from [visualisations file](data/visualisations.ndjson) and adjust patterns appropriately.
 
-6. Navigate to `Dashboards` and check the data. ![Dashboard overview](/images/dashboard.png)
+7. Navigate to `Dashboards` and check the data. ![Dashboard overview](/images/dashboard.png)
 
 Note: The adjustment of all saved objects should not be necessary if you used `ogr2ogr` for the importing of the geojson data. The mapping and index name will match those in Saved objects. If you use different setup, then you will need to adjust ID's of pattern inside of the `visualisations.ndjson` file.
