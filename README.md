@@ -15,7 +15,7 @@ With the current coronavirus outbreak, there are many visualizations and dashboa
 ## Data
 Since the beginning of the outbreak, we had only a few sources available, which were technically merged into one source over time. Government webpage dedicated to [covid-19](https://korona.gov.sk/). Data are provided by [National health information centre](http://www.nczisk.sk/en/Pages/default.aspx). Access to any machine-readable and open data source is impossible, or I am not aware of it. I consider this as unfortunate. Another source is news that scrapes the official data and possibly enhances with other reports from their resources. This approach does not make for a good and reliable data source - primarily if not published freely. Everyone keeps data for themselves as far as I know about (please correct me if I am wrong).
 
-I combine reports and news to create a [dataset](/data/covid-19-slovensko.csv) that is simple to consume by machine.
+I combine reports and news to create a [dataset](/data/covid-19-slovensko-*.csv) that is simple to consume by machine.
 
 ### Data description
 The data set consists CSV report with following header:
