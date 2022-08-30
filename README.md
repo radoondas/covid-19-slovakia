@@ -22,19 +22,19 @@ The data set consists CSV report with following header:
 
 `date;city;infected;gender;note_1;note_2;healthy;died;region;age;district`
 
-| Column name | Description                                                     |
-|:------------|:----------------------------------------------------------------|
-| date        | Date - the date of the record                                   |
-| city        | City - the location of the person infected by covid-19          |
-| infected    | Infected - number of infected                                   |
-| gender      | Gender, `M` - male, `Ž` - female, `D` - children, `X` - unknown |
-| note_1      | Note 1                                                          |
-| note_2      | Note 2                                                          |
-| healthy     | Healthy - number of people who recovered from the virus             |
-| died        | Dead - number people who died                                   |
-| region      | Region                                                          |
-| age         | Age                                                             |
-| district    | District                                                        |
+| Column name | Description                                                        |
+|:------------|:-------------------------------------------------------------------|
+| date        | Date - the date of the record                                      |
+| city        | City - the location of the person infected by covid-19             |
+| infected    | Infected - number of infected                                      |
+| gender      | Gender, `M` - male, `Ž` - female, `D` - children, `X` - unknown    |
+| note_1      | Note 1                                                             |
+| note_2      | Note 2                                                             |
+| healthy     | Healthy - number of people who recovered from the virus            |
+| died        | Dead - number people who died                                      |
+| region      | Region                                                             |
+| age         | Age                                                                |
+| district    | District                                                           |
 
 ### Geo data
 For this occasion I generated `geojson` source file for all towns/cities/villages and also regions. Files are located in 
